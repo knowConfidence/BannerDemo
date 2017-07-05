@@ -50,14 +50,14 @@
 }
 
 @media only screen and (max-width:400px){
+    .title{font-size:50%;}
+    .subtitle{font-size: 40%;}
+    .text{font-size: 30%;}
+}
+@media only screen and (max-width:800px){
     .title{font-size:70%;}
     .subtitle{font-size: 60%;}
     .text{font-size: 50%;}
-}
-@media only screen and (max-width:800px){
-    .title{font-size:80%;}
-    .subtitle{font-size: 70%;}
-    .text{font-size: 60%;}
 }
 @media only screen and (min-width:1100px){
     .title{font-size:100%;}
@@ -71,6 +71,10 @@ html, body{
     line-height: 1.6875;
     font-family: Georgia;
     background-color: rgb(230, 230, 230);
+}
+
+.banner{
+	overflow-x: hidden;
 }
 
 .card{
